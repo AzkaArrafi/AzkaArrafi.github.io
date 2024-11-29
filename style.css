@@ -1,0 +1,234 @@
+body{
+    background-color: black;
+}
+
+header{
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.menu ul {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+}
+
+.menu li a{
+    margin-right: 45px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    display: block;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(#080d9f, #5d00ff);
+}
+    
+    body {
+    
+        background-image: url(neoncity.jpg);
+        max-width: 100%;
+        background-size: cover;
+        background-position: center;
+
+    
+    }
+
+    h1{
+        color: aliceblue;
+    }
+
+    p{
+        color: aliceblue;
+    }
+    
+    span{
+        color:rgb(13, 139, 236);
+        font-size: 44px;
+    }
+
+    .landingpage{
+        padding: 10%;
+    }
+
+    footer{
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        background-color: rgb(55, 16, 193);
+        padding: 4px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: -10px;
+        margin-bottom: -10px;
+        padding: 10px;
+    }
+    .footer-parent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .isifooter img{
+        height: 100px;
+        float: left;
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    .isifooter h2{
+        color:#f2f2f2;
+        font-size: 24px;
+        float: left;
+        margin-right: 6em;  
+        margin-left: 125px;
+    }
+    .isifooter p{
+        font-size: 10px;
+        float: left;
+        font-weight: bold;
+        margin-left: 125px;
+    }
+    .isifooter h4{
+        color: #f2f2f2;
+        font-size: 24px;
+        margin-right: 0px;
+        margin-left: 542px;
+    }
+    .isifooter ul li{
+        list-style: none;
+        
+    }
+    .isifooter ul li a{
+        text-decoration: none;
+        color: #f2f2f2;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-left: 500px;
+        margin-right: 0px;
+    }
+    .gallery img {
+        border-radius: 10px;
+        padding: 75px;
+    }
+   
+.left img{
+    border-radius: 100%;
+}
+
+   .gallery .left img{
+        padding: 100px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30% ;
+        color: white;
+    
+    }
+    
+    form label {
+        margin: 10px 0 5px;
+    }
+    
+    form input, form textarea {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 50%;
+        align-items: center;
+        background-color: rgb(55, 16, 193);
+    }
+    
+    form button {
+        margin-top: 10px;
+        padding: 10px;
+        background: rgb(55, 16, 193);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 50%;
+        margin-left: 10px;
+    }
+    
+    form button:hover{
+        background-color: #005cfa;
+        transition: 300ms;
+    }
+
+    .Hobi-saya{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .foto{
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 100px;
+    }
+    .foto img{
+        width: 30vw;
+        border-radius: 10px;
+        display: block;
+        transition: transform 0.5s;
+        margin-left: 75px;
+    }
+    .layer{
+        width: 18vw;
+        height: 0;
+        background: linear-gradient(rgba(65, 64, 64, 0.6), #004d98);
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 40px;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        margin-left: 60px;
+    }
+    .layer h3{
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .layer a{
+        margin-top:10px;
+        color: #ff004f;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 60px;
+        background: #fff;
+        width: 100%;
+        height: 50%;
+        border-radius: 50%;
+        text-align: center;
+        margin: 0 30px;
+    }
+    .foto:hover img{
+        transform: scale(1.1);
+        border-radius: 10px;
+    }
+    .foto:hover .layer{
+        height: 100%;
+    }
+    
+    .layer img {
+        width: 40px;
+        margin-right: 75px;
+    }
